@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro de cliente</title>
+</head>
+<body>
+	<h1>Formulario de registro de cliente</h1><br>
+	<label for="nombre">Nombre del cliente</label><br>	
+	<form method="GET" action="practica3.php" >
+		<input type="text" name="nombre" placeholder="nombre del cliente" required><br><br>	
+
+		<label for="edad">Edad</label>
+
+		<input type="number" name="edad" placeholder="edad" required><br><br>
+		<label for="correo">Correo electronico</label><br>
+		<input type="email" name="correo" placeholder="correo" required><br><br>
+
+		<label for="fecha_nacimiento">Fecha de nacimiento</label><br>
+		<input type="date" name="fecha_nacimiento" required><br><br>
+
+		<label for="sexo">Sexo</label><br>
+        Femenino: <input type="	radio" name="sexo" value="Femenino"><br>	
+        Masculino: <input type="radio" name="sexo" value="Masculino"><br><br>	
+
+        <label for="areas">Areas de preferencias</label><br>
+        <input type="checkbox" name="areas[]" value="Tecnologia">Tecnologia <br>	
+        <input type="checkbox" name="areas[]" value="Belleza">Belleza <br>	
+        <input type="checkbox" name="areas[]" value="Automoviles">Automoviles <br>	
+        <input type="checkbox" name="areas[]" value="Salud">Salud <br><br>
+
+        <input type="submit" value="Enviar">	
+	</form>
+	<h2>Escobar Nieto Iván Arturo</h2>
+</body>
+</html>
